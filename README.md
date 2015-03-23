@@ -1,6 +1,6 @@
-# Rust Nightly
+# Rust
 
-Rust Nightly container
+Rust container
 
 ## Usage
 
