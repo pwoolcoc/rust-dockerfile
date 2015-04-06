@@ -9,8 +9,8 @@ triple=x86_64-unknown-linux-gnu
 apt-get update && apt-get install -y curl gdb g++-multilib lib32stdc++6 libssl-dev libncurses5-dev cmake
 
 # install rust
-curl -sL https://static.rust-lang.org/dist/rust-1.0.0-alpha-$triple.tar.gz | tar xvz -C /tmp
-/tmp/rust-1.0.0-alpha-$triple/install.sh
+curl -sL https://static.rust-lang.org/dist/rust-1.0.0-beta-$triple.tar.gz | tar xvz -C /tmp
+/tmp/rust-1.0.0-beta-$triple/install.sh
 
 # install cargo
 curl -sL https://static.rust-lang.org/cargo-dist/cargo-nightly-$triple.tar.gz | tar xvz -C /tmp
